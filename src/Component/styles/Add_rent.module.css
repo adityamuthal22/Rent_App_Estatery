@@ -1,0 +1,80 @@
+.MainBox {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.AddHead {
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: blueviolet;
+}
+.MainBox2 {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 38%;
+  height: 450px;
+  margin-top: 50px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.Text1 {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: teal;
+}
+.Box1 {
+  display: flex;
+  gap: 20px;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  border-color: green;
+}
+.Box1 select {
+  border-color: green;
+}
+.Box2 {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  border-color: green;
+}
+.Box3 {
+  display: flex;
+  gap: 20px;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  border-color: green;
+}
+.Box3 select {
+  border-color: green;
+}
+.Box4 {
+  display: flex;
+  gap: 20px;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  border-color: green;
+}
+.Box5 {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+.Box5 button {
+  width: 90%;
+  background-color: teal;
+  color: white;
+}
+.Box5 button:hover {
+  background-color: teal;
+  color: white;
+}

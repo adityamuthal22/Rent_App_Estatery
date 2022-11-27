@@ -1,0 +1,181 @@
+* {
+  font-family: "Urbanist", sans-serif;
+}
+
+.Navbar1 {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  justify-content: space-between;
+  /* border: 1px solid; */
+}
+
+.Navbar1 > input {
+  width: 20%;
+  color: #3470e4;
+}
+.Navbar2 {
+  padding: 10px;
+  margin-top: 10px !important;
+  display: flex;
+  width: 80%;
+  height: 100px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.priceDiv {
+  display: flex;
+  height: 35px;
+  border: 1px solid rgb(224, 223, 223);
+  justify-content: space-around;
+  gap: 5px;
+  align-items: center;
+  padding: 5px;
+}
+.priceDiv > p {
+  margin-top: 4px;
+  width: 80px;
+  padding: 3px;
+}
+.priceDiv > input {
+  width: 80px;
+  height: 20px;
+  margin-top: 4px;
+  border: 1px solid rgb(188, 188, 193);
+}
+.Button2 {
+  width: 250px;
+  background-color: #3470e4;
+  color: white;
+}
+
+.MainDiv {
+  width: 80%;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-between;
+  row-gap: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(244, 249, 249);
+  /* border: 1px solid red; */
+  margin-top: 10px;
+}
+.AllDiv {
+  width: 330px;
+  height: 375px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  border-radius: 5px;
+  background-color: white;
+}
+.Image1 {
+  height: 200px;
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.FirstBox1 {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.Price1 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #796fca;
+}
+.Month1 {
+  margin-left: 2px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #796fca;
+}
+.heartBox {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 50%;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.HeartLogo {
+  height: 25px;
+  align-items: center;
+}
+.DeleteIcon {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 50%;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.DeleteLogo {
+  height: 30px;
+  align-items: center;
+}
+.HouseBox {
+  display: flex;
+  margin-left: 10px;
+  margin-top: -10px;
+}
+.HouseName {
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(39, 39, 39);
+  font-family: "Google Sans", Roboto, arial, sans-serif;
+}
+.PropertyType {
+  display: flex;
+  margin-left: 10px;
+  color: teal;
+  font-size: 20px;
+  font-weight: bold;
+}
+.Address {
+  display: flex;
+  margin-left: 10px;
+  color: #796fca;
+  font-size: 15px;
+  font-weight: bold;
+}
+.LastBox {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 15px;
+  justify-content: space-between;
+}
+.BedLogo {
+  height: 40px;
+}
+.Bedroom {
+  color: #796fca;
+  font-size: 15px;
+  font-weight: 600;
+}
+.SquareLogo {
+  height: 20px;
+  margin-right: 5px;
+}
+.HeadName {
+  margin: auto;
+  margin-top: 10px;
+  font-size: 30px;
+  color: teal;
+}
+.PageNotFound{
+  margin: auto;
+  margin-top: 10px;
+
+}
+.PageNotFoundImage{
+  margin: auto;
+  height: 400px;
+  width: 700px;
+}
