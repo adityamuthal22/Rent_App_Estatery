@@ -14,7 +14,8 @@ This is Rent property App like Houses, Apartment, Builder Floor in different Loc
 ### Features
 
 * Filter By Location, Price Range, Property Type, Date 
-* Search functionality 
+* Search functionality. 
+* You can Add rent_property in WishList Page.
 
 ### Live Link
 
