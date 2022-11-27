@@ -1,18 +1,20 @@
 ## Estatery App
 
-Checkout rent property like House, Apartment, Builder Floor in different cities. 
+Checkout rent property like Houses, Apartment, Builder Floor in different Location. 
+
+# Details : 🔭
 
 ### Tech Stack:
 
-* React.JS
 * Html
 * Css
 * JavaScript
+* React.JS
 
 ### Features
 
-* Filter By City, Price Range, Property Type, Date wort together.
-* Search 
+* Filter By Location, Price Range, Property Type, Date 
+* Search functionality 
 
 ### Live Link
 
