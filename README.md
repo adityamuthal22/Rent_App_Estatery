@@ -1,6 +1,6 @@
 ## Estatery App
 
-Checkout rent property like Houses, Apartment, Builder Floor in different Location. 
+This is Rent property App like Houses, Apartment, Builder Floor in different Location. 
 
 # Details : 🔭
 
