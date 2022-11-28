@@ -42,7 +42,7 @@ const Add_rent_property = () => {
       "rent":Number(rent),
       "address":address
     }
-    axios.post(`https://mockserver97.herokuapp.com/api/rent_data`,payload)
+    axios.post(`https://aditya97.onrender.com/api/rent_data`,payload)
     .then(() =>
     toast({
       title: "Added in Rent Property",
