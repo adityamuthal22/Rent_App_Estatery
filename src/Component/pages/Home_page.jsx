@@ -30,7 +30,7 @@ const Home_page = () => {
 
   const getData = () => {
     axios
-      .get(`https://mockserver97.herokuapp.com/api/rent_data?q=${search}`)
+      .get(`https://aditya97.onrender.com/api/rent_data?q=${search}`)
       .then((res) => setData(res.data));
     //  .then((res)=>console.log(res.data))
   };
@@ -99,7 +99,7 @@ const Home_page = () => {
   };
 
   const handleWish = (el) => {
-    axios.post(`https://mockserver97.herokuapp.com/api/WishList`, el).then(() =>
+    axios.post(`https://aditya97.onrender.com/api/WishList`, el).then(() =>
       toast({
         title: "Adate1ed in WishList Page",
         status: "success",

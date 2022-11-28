@@ -9,7 +9,7 @@ const Favourite_page = () => {
   const toast = useToast();
   const getData = () => {
     axios
-      .get(`https://mockserver97.herokuapp.com/api/WishList`)
+      .get(`https://aditya97.onrender.com/api/WishList`)
       .then((res) => setData(res.data));
     // .then((res)=>console.log(res.data))
   };
@@ -20,7 +20,7 @@ const Favourite_page = () => {
 
   const handleDelete = (id) => {
     axios
-      .delete(`https://mockserver97.herokuapp.com/api/WishList/${id}`)
+      .delete(`https://aditya97.onrender.com/api/WishList/${id}`)
       .then(() => getData())
       .then(() =>
         toast({
